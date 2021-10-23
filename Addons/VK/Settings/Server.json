@@ -1,0 +1,14 @@
+{
+    "KickUnknown": true,
+    "AutoWhitelist": true,
+    "CommandPrefix": "/",
+
+    "Logging": {
+        "FileLogging": true,
+        "DefaultLogLevel": "Info",
+        "DefaultFileLogLevel": "Warn"
+    },
+
+    "Production": true,
+    "BeamMPCompat": false
+}
