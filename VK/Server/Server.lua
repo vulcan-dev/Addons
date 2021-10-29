@@ -287,6 +287,10 @@ local function DisplayDialogSuccess(client, message)
     end
 end
 
+local function BeginVote(executor, client, data)
+
+end
+
 local function GetUser(identifier)
     if not identifier then return nil end
 
@@ -378,6 +382,7 @@ Server.DisplayDialog = DisplayDialog
 Server.DisplayDialogError = DisplayDialogError
 Server.DisplayDialogWarning = DisplayDialogWarning
 Server.DisplayDialogSuccess = DisplayDialogSuccess
+Server.BeginVote = BeginVote
 Server.GetUser = GetUser
 
 Server.SetCommandPrefix = SetCommandPrefix
